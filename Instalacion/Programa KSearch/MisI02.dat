@@ -1,0 +1,159 @@
+English
+en
+KSearch - Kimaldi Location Service
+-
+Search devices on network:
+IP Address:
+NetMask:
+Gateway:
+NodeID:
+Description:
+Remote Host:
+BackUp Host:
+Remote Port UDP:
+Remote Port KSP-TCP:
+Remote Port KSP-UDP:
+TimeOut TCP:
+Automatic load config values
+Events on the Kimaldi communications network:
+Kimaldi communications network - Status:
+Automatic config
+Searching...
+Auto configuration
+Network Cards
+Select one Network card
+Force answer in broadcast mode
+Get IP dynamically (DHCP)
+Use the following IP settings
+Allow control from any Host through TCP/IP
+Check configuration
+MAC Address:
+-
+-
+-
+-
+Configuration
+Send Configuration Frames
+-
+-
+-
+Device settings
+Communication settings to Remote Host
+TCP/IP Configuration
+Send Configuration Frames
+-
+-
+-
+-
+-
+-
+Search
+Cancel
+Read configuration
+Write configuration
+Restore Factory configuration
+Apply configuration
+Restore Factory configuration
+Apply configuration
+-
+-
+Model
+Version
+KSP Ad.
+Description
+Manuf.
+IP Addr
+HW Addr (MAC)
+L. Port
+R. Port
+-
+----
+Error
+Opening SLK port...
+on SLK port opening
+Closing SLK port...
+Searching for Kimaldi devices...
+on device search
+Device search cancelled by user
+Reading device configuration...
+Configuration read: success
+Error on configuration read
+Sending configuration to device...
+Configuration successfully sent
+Error on sending configuration to device
+Error on configuration data
+Loading Factory configuration to the device...
+Factory configuration successfully sent
+Error on loading configuration to device
+Operation cancelled by user
+Do you really wish to load Factory configuration onto selected device:
+Initializing device...
+Device initialization successful
+Error on device initialization
+Sending configuration frame to device...
+Configuration frame successfully sent
+Error on sending configuration frame
+Device search ended
+Canceling search...
+Data Error: incorrect NetMask
+Data Error: incorrect IP-Address
+Data Error: incorrect GateWay
+Data Error: incorrect Remote Host
+Data Error: incorrect BackUp Host
+Error: Please select a device from the list.
+-
+-
+-
+-
+-
+-
+Search for all Kimaldi devices connected to the network
+Cancel device search
+Read configuration from the selected device
+Write configuration to the selected device
+Load Factory configuration to the selected device
+Apply changes to the selected device (Reset)
+Load Factory configuration to the device
+Apply changes to the device (Reset)
+-
+-
+Force answer in broadcast mode
+Get IP dynamically (DHCP)
+Use the following IP settings
+Any Host is allowed to connect through TCP/IP,~
+in addition to the Remote Host 
+Check network configuration values~
+before sending to the device 
+Automatic load network settings
+-
+-
+-
+-
+Device IP Address~
+  --Default value: 192.168.123.10
+Network Mask~
+  --Default value: 255.255.255.0
+Gateway IP Address ~
+  --Default value: 0.0.0.0
+Device KSP Address (Node_ID)
+Device Description
+Remote Host IP Address (computer communicating with device)~
+  --Default value: 192.168.123.11
+Backup Host IP Address~
+  --Default value: 0.0.0.0
+Host Port for UDP Communication~
+  --Default value for Kreta: 5001~
+  --Default value for BioMax/KBio: 5501
+Host Port for TCP Communication~
+  --Default value: 0~
+  --Any other value will switch to KSP-TCP
+Host Port for KSP-UDP Communication~
+  --Default value: 6001
+Set time in seconds for TCP send retries~
+  --Default value: 4 (4 seconds).
+Configuration Frame to be sent to the device
+Shows the list of Kimaldi devices found
+Shows events on Kimaldi communications network
+Shows status of Kimaldi communications network
+-
+-

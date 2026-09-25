@@ -1,0 +1,159 @@
+Español
+es
+KSearch - Servicio de Localización Kimaldi
+-
+Busqueda de terminales en red:
+IP Address:
+NetMask:
+Gateway:
+NodeID:
+Descripción:
+Remote Host:
+BackUp Host:
+Remote Port UDP:
+Remote Port KSP-TCP:
+Remote Port KSP-UDP:
+TimeOut TCP:
+Carga automática de parámetros
+Eventos de la red de comunicaciones Kimaldi:
+Estado de la red de comunicaciones Kimaldi:
+Configuración automática
+Buscando...
+Auto configuración
+Tarjetas de red:
+Seleccione una tarjeta
+Forzar respuesta en modo broadcast de los terminales
+Obtener una IP automáticamente (DHCP)
+Usar la siguiente dirección IP
+Permitir que cualquier Host se pueda conectar al terminal a través de TCP
+Comprobar configuración
+MAC Address:
+-
+-
+-
+-
+Configuración
+Envío de tramas de configuración
+-
+-
+-
+Datos del terminal
+Datos de la comunicación con el Host
+Configuración TCP/IP
+Configuración automática
+-
+-
+-
+-
+-
+-
+Buscar
+Cancelar
+Leer configuración
+Escribir configuración
+Cargar valores de fabrica
+Aplicar configuración
+Cargar valores de fabrica
+Aplicar configuración
+-
+-
+Modelo
+Versión
+KSP Ad.
+Descripción
+Fabric.
+IP Addr
+HW Addr (MAC)
+L. Port
+R. Port
+-
+----
+Error
+Abriendo puerto SLK...
+al abrir puerto SLK
+Cerrando puerto SLK...
+Buscando terminales Kimaldi...
+al buscar terminales
+Busqueda de terminales, cancelada por el usuario
+Leyendo configuración del terminal...
+Lectura de configuración: realizada correctamente
+Error al leer configuración del terminal
+Enviando configuración al terminal...
+Envio de configuración: realizado correctamente
+Error al enviar configuración al terminal
+Error en los datos de configuración
+Cargando la configuración de fábrica en el terminal...
+Carga de configuración de fábrica: realizada correctamente
+Error al cargar la configuración de fábrica
+Operación cancelada por el usuario
+¿Desea cargar la configuración de fabrica en el terminal seleccionado:
+Inicializando terminal...
+Inicialización de terminal: realizada correctamente
+Error al inicializar terminal
+Enviando trama de configuración al terminal...
+Envio de trama de configuración: realizado correctamente
+Error al enviar trama de configuración
+Busqueda de terminales finalizada
+Cancelando busqueda...
+Error de datos: Mascara de red incorrecta
+Error de datos: IP-Address incorrecta
+Error de datos: GateWay incorrecto
+Error de datos: Remote Host incorrecto
+Error de datos: BackUp Host incorrecto
+Error: Seleccione un terminal del listado
+-
+-
+-
+-
+-
+-
+Busca todos los terminales Kimaldi presentes en la red
+Cancela la busqueda de terminales
+Lee la configuración del terminal seleccionado
+Escribe la configuración del terminal seleccionado
+Carga los valores de fabrica en el terminal seleccionado
+Aplica los cambios en el terminal seleccionado (Reset)
+Carga los valores de fabrica al terminal indicado
+Aplica los cambios al terminal indicado (Reset)
+-
+-
+Forzar respuesta en modo broadcast de los terminales
+Obtener una IP automáticamente (DHCP)
+Usar la siguiente dirección IP
+Permitir que cualquier Host se pueda conectar al terminal a través de TCP
+Comprobar configuración de red antes de enviar al terminal
+Carga automática de parámetros de red
+-
+-
+-
+-
+Dirección IP del terminal~
+  --Valor por defecto: 192.168.123.10
+Máscara de subred~
+  --Valor por defecto: 255.255.255.0
+Dirección IP de la puerta de enlace ~
+  --Valor por defecto: 0.0.0.0
+Dirección KSP del terminal (Node_ID)
+Descripción del terminal
+Dirección IP del Host que comunicará con el terminal~
+  --Valor por defecto: 192.168.123.11
+Dirección IP del Host de backup~
+  --Valor por defecto: 0.0.0.0
+Puerto del Host por el que se va a establecer~
+ la comunicación UDP con el terminal~
+  --Valor por defecto para Kreta: 5001~
+  --Valor por defecto para BioMax/KBio: 5501
+Puerto del Host donde esta el servidor KSP-TCP~
+  --Valor por defecto: 0 (Comunicación TCP)~
+  --Cualquier otro valor activará KSP-TCP
+Puerto del Host por el que se va a establecer~
+ la comunicación KSP-UDP con el terminal~
+  --Valor por defecto: 6001
+Codifica el tiempo en segundos entre reintentos TCP~
+  --Valor por defecto: 4 (4 segundos).
+Trama de configuración a enviar al terminal
+Muestra el listado de terminales Kimaldi encontrados
+Muestra los eventos de la red de comunicaciones Kimaldi
+Muestra el estado de la red de comunicaciones Kimaldi
+-
+-

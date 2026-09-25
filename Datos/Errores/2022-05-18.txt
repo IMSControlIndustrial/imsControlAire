@@ -1,0 +1,2 @@
+18/05/2022 8:29:59 usoCPU: No se puede obtener acceso al objeto desechado.
+Nombre del objeto: 'FControlAire'.

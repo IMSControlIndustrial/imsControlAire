@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A17A0CB-C853-437F-AB2C-ED2FEF023BB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>imsControlAire</RootNamespace>
+    <AssemblyName>imsControlAire</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>valve.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>imsControlAire.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Navigator">
+      <HintPath>..\..\..\C# Librerias e Imagenes\LibreriasFrancis\ComponentFactory.Krypton.Navigator.DLL</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\C# Librerias e Imagenes\LibreriasFrancis\ComponentFactory.Krypton.Toolkit.DLL</HintPath>
+    </Reference>
+    <Reference Include="ComunicaDll">
+      <HintPath>..\..\..\C# Librerias e Imagenes\LibreriasFrancis\ComunicaDll.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlesLib">
+      <HintPath>..\..\..\C# Librerias e Imagenes\LibreriasFrancis\ControlesLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Keyboard">
+      <HintPath>..\..\..\C# Librerias e Imagenes\LibreriasFrancis\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\C# Librerias e Imagenes\LibreriasFrancis\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Funciones">
+      <HintPath>..\..\..\C# Librerias e Imagenes\LibreriasFrancis\Funciones.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\06) IMS_LlenadoCubas\imsLlenadoCubas\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FP_CONNECTLib">
+      <HintPath>..\..\..\C# Librerias e Imagenes\LibreriasFrancis\Interop.FP_CONNECTLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="KNet, Version=1.31.0.0, Culture=neutral, PublicKeyToken=35bb6d0c9f891adb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lector Flexy2 Kimaldi\LECTOR_TARJETA(FRANCIS)\lectorFlexyNET\KNet.dll</HintPath>
+    </Reference>
+    <Reference Include="lectorRFID">
+      <HintPath>..\..\..\C# Librerias e Imagenes\LibreriasFrancis\lectorRFID.dll</HintPath>
+    </Reference>
+    <Reference Include="RFID">
+      <HintPath>..\..\06) IMS_LlenadoCubas\imsLlenadoCubas\RFID.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ftes\FConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ftes\FConfiguracion.Designer.cs">
+      <DependentUpon>FConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ftes\FConnectBD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ftes\FConnectBD.Designer.cs">
+      <DependentUpon>FConnectBD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ftes\FControlAire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ftes\FControlAire.Designer.cs">
+      <DependentUpon>FControlAire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ftes\Funcion.cs" />
+    <Compile Include="Ftes\Program.cs" />
+    <Compile Include="Ftes\FunDatos.cs" />
+    <Compile Include="Ftes\BDPool.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ftes\FConfiguracion.resx">
+      <DependentUpon>FConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ftes\FConnectBD.resx">
+      <DependentUpon>FConnectBD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ftes\FControlAire.resx">
+      <DependentUpon>FControlAire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="valve.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

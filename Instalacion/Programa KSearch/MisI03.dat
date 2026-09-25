@@ -1,0 +1,160 @@
+Português
+pt
+KSearch - Serviço de Localização Kimaldi
+-
+Terminais encontrados em rede:
+Endereço IP:
+NetMask:
+Gateway:
+NodeID:
+Descrição:
+Remote Host:
+BackUp Host:
+Remote Port UDP:
+Remote Port KSP-TCP:
+Remote Port KSP-UDP:
+TimeOut TCP:
+Preencimento automático de parametros
+Eventos da rede de comunicações Kimaldi:
+Estado da rede de comunicações Kimaldi:
+Preenchimento automático
+Pesquisando...
+Auto configuração
+Placas de rede
+Seleccione uma placa
+Forçar resposta em modo broadcast dos terminais
+Obter um IP automaticamente (DHCP)
+Usar o seguinte endereço IP
+Permitir que qualquer Host se possa ligar ao terminal através de TCP
+Comprovar configuração
+MAC Address:
+-
+-
+-
+-
+Configuração
+Envio de tramas de configuração
+-
+-
+-
+Dados do terminal
+Dados da comunicação com o Host
+Configuração TCP/IP
+Envio de tramas de configuração
+-
+-
+-
+-
+-
+-
+Procurar
+Cancelar
+Ler configuração
+Escrever configuração
+Carregar valores de fábrica
+Aplicar configuração
+Carregar valores de fábrica
+Aplicar configuração
+-
+-
+Modelo
+Versão
+KSP Ad.
+Descrição
+Fabric.
+IP Addr
+HW Addr (MAC)
+L. Port
+R. Port
+-
+----
+Erro
+A abrir porta SLK...
+ao abrir porta SLK
+A fechar porta SLK...
+A procurar terminais Kimaldi...
+ao procurar terminais
+Procura de terminais, cancelada pelo utilizador
+A ler configuração do terminal...
+Leitura de configuração: realizada correctamente
+Erro ao ler configuração do terminal
+A enviar configuração para o terminal...
+Envio de configuração: realizado correctamente
+Erro ao enviar configuração para o terminal
+Erro nos dados de configuração
+Carregando a configuração de fábrica no terminal...
+Carga da configuração de fábrica: realizada correctamente
+Erro ao carregar a configuração de fábrica
+Operação cancelada pelo utilizador
+Deseja carregar a configuração de fábrica no terminal seleccionado:
+A inicializar terminal...
+Inicialização do terminal: realizada correctamente
+Erro ao inicializar terminal
+Enviando trama de configuração para o terminal...
+Envio de trama de configuração: realizado correctamente
+Erro ao enviar trama de configuração
+Procura de terminais finalizada
+A cancelar busca...
+Erro de dados: Mascara de rede incorrecta
+Erro de dados: IP-Address incorrecto
+Erro de dados: GateWay incorrecto
+Erro de dados: Remote Host incorrecto
+Erro de dados: BackUp Host incorrecto
+Erro: Please select a device from the list.
+-
+-
+-
+-
+-
+-
+Procurar todos os terminais Kimaldi presentes na rede
+Cancela a procura de terminais
+Lê a configuração do terminal seleccionado
+Escreve a configuração do terminal seleccionado
+Carrega os valores de fábrica no terminal seleccionado
+Aplica as alterações no terminal seleccionado (Reset)
+Carrega os valores de fábrica no terminal
+Aplica as alterações no terminal (Reset)
+-
+-
+Forçar resposta no modo broadcast dos terminais
+Obter um IP automaticamente (DHCP)
+Usar o seguinte endereço IP
+Permitir que qualquer Host se possa ligar ao terminal através de TCP
+Comprovar configuração de rede antes de enviar para o terminal
+Preechimento automático de parametros de rede necessários para comunicação com o Host
+-
+-
+-
+-
+Endereço IP do terminal~
+  --Valor por defeito: 192.168.123.10
+Máscara de subrede~
+  --Valor por defeito: 255.255.255.0
+Endereço IP  da porta de ligação ~
+  --Valor por defeito: 0.0.0.0
+Endereço KSP do terminal (Node_ID)
+Descrição do terminal
+Endereço IP do Host que comunicará com o terminal~
+  --Valor por defeito: 192.168.123.11
+Endereço IP do Host de backup~
+  --Valor por defeito: 0.0.0.0
+Porta do Host pela qual se vai estabelecer~
+ a comunicação UDP com o terminal~
+  --Valor por defeito para Kreta: 5001~
+  --Valor por defeito para BioMax/KBio: 5501
+Porta do Host pela qual se vai estabelecer~
+ a comunicação TCP com o terminal~
+  --Valor por defeito: 0~
+  --Qualquer outro valor activará KSP-TCP
+Porta do Host pela qual se vai estabelecer~
+ a comunicação KSP-UDP com o terminal~
+  --Valor por defeito: 6001
+Codifica o tempo em segundos entre tentativas TCP~
+  --Valor por defeito: 4 (4 segundos).
+Trama de configuração a enviar ao terminal
+Mostra a listagem de terminais Kimaldi encontrados
+Mostra os eventos da rede de comunicações Kimaldi
+Mostra o estado da rede de comunicações Kimaldi
+-
+-

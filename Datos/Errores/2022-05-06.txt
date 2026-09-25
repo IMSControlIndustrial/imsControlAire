@@ -1,0 +1,1 @@
+06/05/2022 14:12:23 usoCPU: No se puede llamar a Invoke o a BeginInvoke en un control hasta que se haya creado el identificador de ventana.
